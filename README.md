@@ -5,9 +5,9 @@ This repository is here to compile resources that are useful for quickly buildin
 ## Resources
 
 ### Agent Frameworks
+
 - [Awesome AI Memory](https://github.com/topoteretes/awesome-ai-memory/tree/main) - A curated list of AI memory implementations and resources
 - [Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Anthropic's engineering blog post on agent architectures
-
 
 ### Cloud IaC
 
@@ -29,4 +29,3 @@ To destroy the stack
 ```
 pulumi destroy
 ```
-
