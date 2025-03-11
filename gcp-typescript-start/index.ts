@@ -14,7 +14,7 @@ const bucketObject = new gcp.storage.BucketObject("index.html", {
   source: new pulumi.asset.FileAsset("index.html"),
 });
 
-const bucketBinding = new gcp.storage.BucketIAMBinding("my-bucket-binding", {
+new gcp.storage.BucketIAMBinding("my-bucket-binding", {
   bucket: bucket.name,
   role: "roles/storage.objectViewer",
   members: ["allUsers"],
