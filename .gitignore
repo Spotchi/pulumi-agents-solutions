@@ -1,0 +1,6 @@
+node_modules/
+
+# Pulumi
+.pulumi/
+
+__pycache__/
